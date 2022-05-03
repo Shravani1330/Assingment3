@@ -7,4 +7,6 @@ def most_frequent(string):
             d[key] += 1
     return d
 
-print most_frequent('Mississippi')
+
+most_frequent.sort(reverse=True)
+print('List in Descending Order: ',most_frequent )
